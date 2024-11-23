@@ -8,6 +8,7 @@ import {
   FaBatteryThreeQuarters,
   FaExternalLinkAlt,
   FaGithub,
+  FaConnectdevelop,
 } from "react-icons/fa";
 
 type LinkData = {
@@ -24,7 +25,7 @@ const links: LinkData[] = [
   },
   {
     name: "App",
-    icon: <FaTelegramPlane className="h-8 w-8" />,
+    icon: <FaConnectdevelop className="h-8 w-8" />,
     href: "https://app.alpha.broker",
   },
   {
@@ -33,7 +34,7 @@ const links: LinkData[] = [
     href: "https://twitter.com/alphabroker_x",
   },
   {
-    name: "Telegram Bot",
+    name: "Telegram",
     icon: <FaTelegramPlane className="h-8 w-8" />,
     href: "https://t.me/alphabroker_bot",
   },
