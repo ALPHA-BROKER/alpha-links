@@ -7,7 +7,6 @@ import {
   FaTelegramPlane,
   FaBatteryThreeQuarters,
   FaExternalLinkAlt,
-  FaDiscord,
   FaGithub,
 } from "react-icons/fa";
 
