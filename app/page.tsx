@@ -41,7 +41,7 @@ const links: LinkData[] = [
   {
     name: "Servers status",
     icon: <FaBatteryThreeQuarters className="h-8 w-8" />,
-    href: "https://status.alpha.broker",
+    href: "https://alpha.openstatus.dev/",
   },
 ];
 
