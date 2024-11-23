@@ -34,11 +34,6 @@ const links: LinkData[] = [
     href: "https://t.me/alphabroker_bot",
   },
   {
-    name: "Discord",
-    icon: <FaDiscord className="h-8 w-8" />,
-    href: "https://discord.gg/alphabroker",
-  },
-  {
     name: "Github",
     icon: <FaGithub className="h-8 w-8" />,
     href: "https://github.com/ALPHA-BROKER",
