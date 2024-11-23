@@ -17,6 +17,26 @@ export const metadata: Metadata = {
   title: "ALPHA BROKER",
   description:
     "Powerful management and automation platform built for Solana blockchain, designed to simplify token launches and drive you token performance.",
+  openGraph: {
+    title: "ALPHA BROKER",
+    description:
+      "Powerful management and automation platform built for Solana blockchain, designed to simplify token launches and drive you token performance.",
+    images: [
+      {
+        url: "/preview-image.gif",
+        width: 640,
+        height: 360,
+        alt: "Preview image of Alpha Broker platform",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ALPHA BROKER",
+    description:
+      "Powerful management and automation platform built for Solana blockchain, designed to simplify token launches and drive you token performance.",
+    images: ["/preview-image.gif"],
+  },
 };
 
 export default function RootLayout({
@@ -26,6 +46,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#040708]`}
       >
