@@ -23,7 +23,7 @@ export const metadata: Metadata = {
       "Powerful management and automation platform built for Solana blockchain, designed to simplify token launches and drive you token performance.",
     images: [
       {
-        url: "/preview-image.gif",
+        url: "/preview-image.png",
         width: 640,
         height: 360,
         alt: "Preview image of Alpha Broker platform",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "ALPHA BROKER",
     description:
       "Powerful management and automation platform built for Solana blockchain, designed to simplify token launches and drive you token performance.",
-    images: ["/preview-image.gif"],
+    images: ["/preview-image.png"],
   },
 };
 

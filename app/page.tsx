@@ -23,12 +23,17 @@ const links: LinkData[] = [
     href: "https://alpha.broker",
   },
   {
+    name: "App",
+    icon: <FaTelegramPlane className="h-8 w-8" />,
+    href: "https://app.alpha.broker",
+  },
+  {
     name: "Twitter",
     icon: <FaTwitter className="h-8 w-8" />,
     href: "https://twitter.com/alphabroker_x",
   },
   {
-    name: "Telegram",
+    name: "Telegram Bot",
     icon: <FaTelegramPlane className="h-8 w-8" />,
     href: "https://t.me/alphabroker_bot",
   },
